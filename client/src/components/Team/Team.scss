@@ -1,0 +1,31 @@
+.team {
+    width: 100%;
+    padding: 0px 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+
+    &__cards {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__card {
+            &__body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: rgba(211, 211, 211, 0.733);
+                h4{
+                    text-align: center;
+                    color: grey;
+                }
+
+            }
+        }
+
+    }
+}
